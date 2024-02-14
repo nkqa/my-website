@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Url-Shorten-Worker</title>
+	<meta http-equiv="Refresh" content="1; url={Replace}" />
+	<meta name="referrer" content="no-referrer" />
+</head>
+
+<body>
+	<p>正在跳转中...<br /><a href="{Replace}">{Replace}</a></p>
+	<a href="https://github.com/xyTom/Url-Shorten-Worker/" target="_self">在 GitHub 上创建分支</a>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		setTimeout('window.location.replace( "{Replace}" + window.location.hash );', 1000 )
+
+/* ]]> */
+	</script>
+</body>
+
+</html>
