@@ -5,7 +5,6 @@
 <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css"/>
 <meta charset="UTF-8">
 <title>az_QAQの個人ウェブサイト</title>
-<base href="https://azqaq.top/ja.html" />
 <!-- 适应移动端 UA -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
 <!-- font -->
@@ -157,7 +156,7 @@
 <div class="mdui-panel" mdui-panel>
 
   <div class="mdui-panel-item">
-  <div class="mdui-panel-item-header">ビリビリ(ニコニコに似ている)</div>
+  <div class="mdui-panel-item-header">ビリビリ</div>
     <div class="mdui-panel-item-body">
       <p><a href="https://b23.tv/D5rHkB9" class="mdui-btn mdui-ripple">クリックすると、最初のアカウント(共通)に移動します</a></p>
       <p><a href="https://b23.tv/F9FaSwG" class="mdui-btn mdui-ripple">クリックして 2 番目のアカウントに移動します (未使用)</a></p>
@@ -346,7 +345,7 @@ var gitalk = new Gitalk({
   repo: 'Comment-2',
   owner: 'azdyqwo',
   admin: ['azdyqwo'],
-  id: 'japanese',      // Ensure uniqueness and length less than 50
+  id: location.href,      // Ensure uniqueness and length less than 50
   distractionFreeMode: true,  // Facebook-like distraction free mode
   Number: '6'
 })

@@ -5,7 +5,6 @@
 <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css"/>
 <meta charset="UTF-8">
 <title>az_QAQ 的个人网站</title>
-<base href="https://azqaq.top/index.html" />
 <!--chat -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
   <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
@@ -788,7 +787,7 @@ font-family: "ZCOOL KuaiLe";
   <div class="mdui-panel" mdui-panel>
 
   <div class="mdui-panel-item">
-<div class="mdui-panel-item-header">Niconico（日本网站，类似国内的哔哩哔哩，需工具访问）</div>
+<div class="mdui-panel-item-header">Niconico（日本网站，需工具访问）</div>
     <div class="mdui-panel-item-body">
       <p><a href="https://www.nicovideo.jp/user/117738394" class="mdui-btn mdui-ripple">点击前往</a></p>
     </div>
@@ -829,6 +828,7 @@ font-family: "ZCOOL KuaiLe";
 <h3 align=center>一个提供技术交流和资源分享的网站</h3>
 <p align=center><a href="http://hdxzd12.gnway.cc" class="mdui-btn mdui-ripple">点击前往<i class="mdui-icon material-icons">&#xe154;</i></a></p>
 <div class="mdui-divider"></div>
+<h1 align="center">我玩的游戏</h1>
 
 
 <h3 align=center>联系方式(都可以点)</h3>
@@ -866,7 +866,7 @@ var gitalk = new Gitalk({
   repo: 'Comment-2',
   owner: 'azdyqwo',
   admin: ['azdyqwo'],
-  id: 'chinese',      // Ensure uniqueness and length less than 50
+  id: location.href,      // Ensure uniqueness and length less than 50
   distractionFreeMode: true,  // Facebook-like distraction free mode
   Number: '4'
 })
