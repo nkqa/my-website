@@ -539,6 +539,35 @@ font-family: "ZCOOL KuaiLe";
 </head>
 <body>
 <div class="mdui-toolbar mdui-color-theme">
+	<body class="mdui-drawer-body-right">
+
+  <i class="mdui-btn" mdui-drawer="{target: '#left-drawer'}"><i class="mdui-icon material-icons">menu</i></i>
+
+  <div class="mdui-drawer mdui-drawer-close" id="left-drawer">
+    <li class="mdui-menu-item">
+        <li class="mdui-subheader">网页控制</li>
+        <a class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">close</i>关闭侧边栏</a>
+        <a href="#whatimgoodat" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">beenhere</i>我擅长的</a>
+        <a href="#accounts" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">account_circle</i>我的社交账号</a>
+        <a href="#gameaccounts" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">videogame_asset</i>我的游戏账号</a>
+        <a href="#links" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">link</i>友情不了一点的链接</a>
+        <a href="#contact" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">send</i>联系方式</a>
+        <a href="#comment" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">chat</i>评论</a>
+        <li class="mdui-subheader">外部链接</li>
+        <a href="https://blog.ikunmc.com" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">border_color</i>个人博客</a>
+        <a href="https://www.ikunmc.com" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">forum</i>论坛</a>
+        <a href="./apis/ai" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">color_lens</i>AI 绘画</a>
+        <a href="http://azdyqwo-ovo.669.ink/old.html" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">backspace</i>旧版页面</a>
+        <a href="https://alist.azqaq.cn.eu.org" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">file_upload</i>在家里电脑运行的 Alist</a>
+        <a href="https://l.azqaq.top" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">cloud_upload</i>在云服务器上运行的 AlistAlist</a>
+        <li class="mdui-subheader">娱乐</li>
+        <a href="javascript:var KICKASSVERSION='2.0';var s = document.createElement('script');s.type='text/javascript';document.body.appendChild(s);s.src='//hi.kickassapp.com/kickass.js';void(0);" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">gps_fixed</i>Kick Ass(炸毁页面,来源：kickassapp.com)</a>
+        <a href="https://eatkun.ikunmc.com" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">games</i>ikun 音游</a>
+      </li>
+  </div>
+  
+</body>
+
   <span class="mdui-typo-title">azQAQ 的个人网站</span>
   <div class="mdui-toolbar-spacer"></div>
   <div class="mdui-textfield mdui-textfield-expandable mdui-float-right">
@@ -649,7 +678,7 @@ font-family: "ZCOOL KuaiLe";
 <p><div class="mdui-progress">
   <div class="mdui-progress-determinate" style="width: 24%;"></div>
 </div></p>
-<div class="mdui-divider"></div>
+<div class="mdui-divider" id="whatimgoodat"></div>
 <h1 align="center">我擅长的</h1>
 <h2 align="center">我喜欢唱、跳、rap、篮球</h2>
 <p></p>
@@ -669,6 +698,7 @@ font-family: "ZCOOL KuaiLe";
 </ul>
 <div class="mdui-divider"></div>
 
+	<div id="accounts"></div>
 <h1 align="center">我的社交帐号</h1>
 <h2 align="center">我在互联网上的住处(点击展开)</h2>
 <!--账号-->
@@ -816,6 +846,7 @@ font-family: "ZCOOL KuaiLe";
   
   <div class="mdui-divider"></div>
   <!-- game accounts-->
+	<div id="gameaccounts"></div>
   <h1 align="center">我的游戏帐号</h1>
 <h2 align="center">我在游戏上的都名叫什么？(点击展开)</h2>
 <!--账号-->
@@ -882,7 +913,7 @@ font-family: "ZCOOL KuaiLe";
   </div>
 
 </div>
-<div class="mdui-divider"></div>
+<div class="mdui-divider" id="links"></div>
 <h1 align="center">友情不了一点的链接</h1>
 <p align="center"><img src="https://enderbbs.wavemoe.com/assets/logo-n517ushh.png"></p>
 <h3 align="center">一个为游戏玩家和技术爱好者提供游戏与技术交流、分享、学习平台的轻论坛</h3>
@@ -895,7 +926,7 @@ font-family: "ZCOOL KuaiLe";
 <p align=center><a href="http://hdxzd12.gnway.cc" class="mdui-btn mdui-ripple">点击前往<i class="mdui-icon material-icons">&#xe154;</i></a></p>
 <div class="mdui-divider"></div>
 
-
+<div id="contact"></div>
 <h3 align=center>联系方式(都可以点)</h3>
 <ul class="mdui-list">
 <li class="mdui-subheader">住址</li>
@@ -920,6 +951,7 @@ font-family: "ZCOOL KuaiLe";
 <div class="mdui-panel-item-header">网站访问总数:<img src="https://badges.toozhao.com/badges/01HB14DBJTAXA78QRRYPYZ5YR0/green.svg" /></div>
   </div>
   </div>
+	<div id="comment"></div>
 <div class="mdui-divider"></div>
 <!--评论-->
 <div id="gitalk-container"></div>
