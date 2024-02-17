@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="zh-cmn-Hans">
 <head>
@@ -537,18 +538,44 @@ font-family: "ZCOOL KuaiLe";
  }
 	</style>
 </head>
-<body>
 <div class="mdui-toolbar mdui-color-theme">
+
+<body class="mdui-drawer-body-right">
+
+  <i class="mdui-btn" mdui-drawer="{target: '#left-drawer'}"><i class="mdui-icon material-icons">menu</i></i>
+
+  <div class="mdui-drawer" id="left-drawer">
+    <li class="mdui-menu-item">
+        <li class="mdui-subheader">Controls</li>
+        <a class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">close</i>close</a>
+        <a href="#whatimgoodat" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">beenhere</i>What I'm good at</a>
+        <a href="#accounts" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">account_circle</i>My accounts</a>
+        <a href="#gameaccounts" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">videogame_asset</i>My game accounts</a>
+        <a href="#links" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">link</i>Links</a>
+        <a href="#contact" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">send</i>Contact</a>
+        <a href="#comment" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">chat</i>Comment</a>
+        <li class="mdui-subheader">External links</li>
+        <a href="https://blog.ikunmc.com" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">border_color</i>Blog</a>
+        <a href="https://www.ikunmc.com" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">chat_bubble</i>Forum</a>
+        <a href="./apis/ai" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">color_lens</i>AI painting</a>
+        <a href="http://azdyqwo-ovo.669.ink/old.html" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">backspace</i>Old page</a>
+        <a href="https://alist.azqaq.cn.eu.org" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">file_upload</i>Alist in my computer</a>
+        <a href="https://l.azqaq.top" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">cloud_upload</i>Alist in cloud server</a>
+      </li>
+  </div>
+  
+</body>
+
   <span class="mdui-typo-title">azQAQ's personal website</span>
   <div class="mdui-toolbar-spacer"></div>
   <div class="mdui-textfield mdui-textfield-expandable mdui-float-right">
   <a href="https://bing.com" class="mdui-btn mdui-btn-icon mdui-ripple">
-    <i class="mdui-icon material-icons">&#xe8b6;</i>
+    <i class="mdui-icon material-icons" mdui-tooltip="{content: 'Bing Serach'}">&#xe8b6;</i>
     </a>
 </div>
   </a>
   <a href="javascript:location.reload ()" class="mdui-btn mdui-btn-icon mdui-ripple">
-    <i class="mdui-icon material-icons" class="mdui-btn mdui-ripple">refresh</i>
+    <i class="mdui-icon material-icons" class="mdui-btn mdui-ripple" mdui-tooltip="{content: 'Refresh'}">refresh</i>
   </a>
   <ul class="mdui-menu">
   <a href="javascript:;" class="mdui-btn mdui-btn-icon">
@@ -650,6 +677,7 @@ font-family: "ZCOOL KuaiLe";
   <div class="mdui-progress-determinate" style="width: 24%;"></div>
 </div></p>
 <div class="mdui-divider"></div>
+<div id="whatimgoodat"></div>  
 <h1 align="center">What I'm good at</h1>
 <h2 align="center">I love singing, dancing, rapping, and basketball</h2>
 <p></p>
@@ -668,7 +696,8 @@ font-family: "ZCOOL KuaiLe";
   <li class="mdui-list-item mdui-ripple">I have many Cai Xukun's chicken pictures</li>
 </ul>
 <div class="mdui-divider"></div>
-
+	
+<div id="accounts"></div>
 <h1 align="center">My accounts</h1>
 <h2 align="center">Where I live on the internet (click to expand)</h2>
 <!--账号-->
@@ -815,6 +844,7 @@ font-family: "ZCOOL KuaiLe";
   </div>
     <div class="mdui-divider"></div>
   <!-- game accounts-->
+  <div id="gameaccounts"></div>
   <h1 align="center">My game accounts</h1>
 <h2 align="center">What are my names in the game? (Click to expand)</h2>
 <!--账号-->
@@ -881,6 +911,7 @@ font-family: "ZCOOL KuaiLe";
   </div>
 
 </div>
+<div id="links"></div>
 <div class="mdui-divider"></div>
 <h1 align="center">Links</h1>
 <p align="center"><img src="https://enderbbs.wavemoe.com/assets/logo-n517ushh.png"></p>
@@ -892,13 +923,14 @@ font-family: "ZCOOL KuaiLe";
 <p align=center><img src=http://hdxzd12.gnway.cc/data/attachment/common/template/boardimg_20240101wka87we7.png></p>
 <h3 align=center>A website that provides technical exchange and resource sharing</h3>
 <p align=center><a href="http://hdxzd12.gnway.cc" class="mdui-btn mdui-ripple">Click Go<i class="mdui-icon material-icons">&#xe154;</i></a></p>
-<div class="mdui-divider"></div>
+<div class="mdui-divider" id="contact"></div>
 <h3 align=center>Contact information (can be clicked)</h3>
 <ul class="mdui-list">
 <li class="mdui-subheader">Address</li>
   <li class="mdui-list-item mdui-ripple"><a href=https://www.google.com/maps/search/Earth class="mdui-btn mdui-ripple">Earth</a></li>
   <li class="mdui-subheader">Telephone number</li>
   <li class="mdui-list-item mdui-ripple"><a href=tel:+861*********6 class="mdui-btn mdui-ripple">+861**********6</a></li>
+  <div id="email"></div>
   <li class="mdui-subheader">E-Mail</li>
   <li class="mdui-list-item mdui-ripple"><p><a href=mailto:shiwin7junya@126.com class="mdui-btn mdui-ripple">shiwin7junya@126.com(Most commonly used)</a></li></p>
                                 <li class="mdui-list-item mdui-ripple"><p align=center><a href="mailto:shiwin7junya@outlook.com" class="mdui-btn mdui-ripple">shiwin7junya@outlook.com</a></li></p>
@@ -917,6 +949,7 @@ font-family: "ZCOOL KuaiLe";
 <div class="mdui-panel-item-header">Total number of website visits:<img src="https://badges.toozhao.com/badges/01HB14DBJTAXA78QRRYPYZ5YR0/green.svg" /></div>
   </div>
   <!--评论-->
+  <div id="comment"></div>
 <div id="gitalk-container"></div>
 <!--引入评论系统-->
 <script>
@@ -935,7 +968,7 @@ gitalk.render('gitalk-container')
 </script>
   </div>
 <div class="mdui-divider"></div>
-<a href="./en_us.html#" class="mdui-btn mdui-ripple">
+<a href="#" class="mdui-btn mdui-ripple">
 <button class="mdui-fab mdui-fab-fixed mdui-ripple">
 <i class="mdui-icon material-icons">&#xe5d8;</i>
 </button>
