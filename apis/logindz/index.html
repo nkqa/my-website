@@ -30,7 +30,7 @@
 <title>一键登录 Discuz 论坛</title>
 </head>
 <!-- 这是一个简单的表单，action 默认为 /url -->
-<form id="myForm" action="/url" method="GET" target="_blank">
+<form id="myForm" action="/url/member.php" method="GET" target="_blank">
   <div class="mdui-textfield">
   <p>
   <i class="mdui-icon material-icons">link</i>
@@ -66,6 +66,7 @@
 <div class="mdui-divider"></div>
 <p>本网站功能基于<a href="https://blog.csdn.net/weixin_42411512/article/details/118209194">这篇文章</a>的内容实现，纯静态网页，不会提交到第三方服务器，可以前往 <a href="https://github.com/azdyqwo/my-website/tree/main/apis%2Flogindz">GitHub</a> 查看源代码，也可以通过按 F12 键查看</p>
 <p>往 http:// 开头的网站发送可能提示发送的表单不安全，仍然发送即可，最好还是要 https:// 开头</p>
+<p>部分网站会开启验证码机制，还需要完成相应的验证码才可以登录</p>
 
 <!--实现自定义表单提交到的位置-->
 <script>
