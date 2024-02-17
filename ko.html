@@ -539,6 +539,34 @@ font-family: "ZCOOL KuaiLe";
 </head>
 <body>
 <div class="mdui-toolbar mdui-color-theme">
+    <body class="mdui-drawer-body-right">
+
+  <i class="mdui-btn" mdui-drawer="{target: '#left-drawer'}"><i class="mdui-icon material-icons">menu</i></i>
+
+  <div class="mdui-drawer mdui-drawer-close" id="left-drawer">
+    <li class="mdui-menu-item">
+        <li class="mdui-subheader">Controls</li>
+        <a class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">close</i>close</a>
+        <a href="#whatimgoodat" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">beenhere</i>내가 잘하는 것</a>
+        <a href="#accounts" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">account_circle</i>내 소셜 미디어 계정</a>
+        <a href="#gameaccounts" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">videogame_asset</i>내 게임 계정</a>
+        <a href="#links" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">link</i>링크</a>
+        <a href="#contact" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">send</i>접촉</a>
+        <a href="#comment" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">chat</i>코멘트</a>
+        <li class="mdui-subheader">외부 링크</li>
+        <a href="https://blog.ikunmc.com" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">border_color</i>블로그</a>
+        <a href="https://www.ikunmc.com" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">forum</i>포럼</a>
+        <a href="./apis/ai" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">color_lens</i>AI 페인팅</a>
+        <a href="http://azdyqwo-ovo.669.ink/old.html" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">backspace</i>레거시 페이지</a>
+        <a href="https://alist.azqaq.cn.eu.org" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">file_upload</i>내 컴퓨터의 Alist</a>
+        <a href="https://l.azqaq.top" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">cloud_upload</i>클라우드 서버의 Alist</a>
+        <li class="mdui-subheader">놀이</li>
+        <a href="javascript:var KICKASSVERSION='2.0';var s = document.createElement('script');s.type='text/javascript';document.body.appendChild(s);s.src='//hi.kickassapp.com/kickass.js';void(0);" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">gps_fixed</i>Kick Ass(이 페이지를 날려 버리십시오,by kickassapp.com)</a>
+        <a href="https://eatkun.ikunmc.com" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">games</i>Eat Kun</a>
+      </li>
+  </div>
+  
+</body>
   <span class="mdui-typo-title">azQAQ의 개인 웹 사이트</span>
   <div class="mdui-toolbar-spacer"></div>
   <div class="mdui-textfield mdui-textfield-expandable mdui-float-right">
@@ -649,7 +677,7 @@ font-family: "ZCOOL KuaiLe";
 <p><div class="mdui-progress">
   <div class="mdui-progress-determinate" style="width: 24%;"></div>
 </div></p>
-<div class="mdui-divider"></div>
+<div class="mdui-divider" id="whatimgoodat"></div>
 <h1 align="center">내가 잘하는 것</h1>
 <h2 align="center">노래, 댄스, rap, 농구</h2>
 <p></p>
@@ -667,7 +695,7 @@ font-family: "ZCOOL KuaiLe";
   <li class="mdui-subheader">Cai Xukun의 닭 사진 보내기</li>
   <li class="mdui-list-item mdui-ripple">나는 Cai Xukun의 닭 사진을 많이 가지고 있습니다.</li>
 </ul>
-<div class="mdui-divider"></div>
+<div class="mdui-divider" id="accounts"></div>
 
 <h1 align="center">내 소셜 계정</h1>
 <h2 align="center">인터넷상의 내가 사는 곳(확장하려면 클릭)</h2>
@@ -813,7 +841,7 @@ font-family: "ZCOOL KuaiLe";
     </div>
   </div>
   </div>
-    <div class="mdui-divider"></div>
+    <div class="mdui-divider" id="gameaccounts"></div>
   <!-- game accounts-->
   <h1 align="center">내 게임 계정</h1>
 <h2 align="center">게임에서 내 이름은 무엇입니까? (확대하려면 클릭)</h2>
@@ -881,7 +909,7 @@ font-family: "ZCOOL KuaiLe";
   </div>
 
 </div>
-<div class="mdui-divider"></div>
+<div class="mdui-divider" id="links"></div>
 <h1 align="center">링크</h1>
 <p align="center"><img src="https://enderbbs.wavemoe.com/assets/logo-n517ushh.png"></p>
 <h3 align="center">게이머와 기술 애호가가 게임과 기술에 대해 소통하고, 공유하고, 배울 수 있는 플랫폼을 제공하는 가벼운 포럼입니다</h3>
@@ -892,7 +920,7 @@ font-family: "ZCOOL KuaiLe";
 <p align=center><img src=http://hdxzd12.gnway.cc/data/attachment/common/template/boardimg_20240101wka87we7.png></p>
 <h3 align=center>기술 교류 및 리소스 공유를 제공하는 웹 사이트</h3>
 <p align=center><a href="http://hdxzd12.gnway.cc" class="mdui-btn mdui-ripple">이동을 클릭합니다<i class="mdui-icon material-icons">&#xe154;</i></a></p>
-<div class="mdui-divider"></div>
+<div class="mdui-divider" id="contact"></div>
 
 
 <h3 align=center>연락처 정보(클릭 가능)</h3>
@@ -919,6 +947,7 @@ font-family: "ZCOOL KuaiLe";
 <div class="mdui-panel-item-header">총 웹사이트 방문 횟수:<img src="https://badges.toozhao.com/badges/01HB14DBJTAXA78QRRYPYZ5YR0/green.svg" /></div>
   </div>
   </div>
+  <div id="comment"></div>
   <!--评论-->
 <div id="gitalk-container"></div>
 <!--引入评论系统-->
