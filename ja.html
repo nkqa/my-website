@@ -20,6 +20,34 @@
 </head>
 <body>
 <div class="mdui-toolbar mdui-color-theme">
+    <body class="mdui-drawer-body-right">
+
+  <i class="mdui-btn" mdui-drawer="{target: '#left-drawer'}"><i class="mdui-icon material-icons">menu</i></i>
+
+  <div class="mdui-drawer mdui-drawer-close" id="left-drawer">
+    <li class="mdui-menu-item">
+        <li class="mdui-subheader">コントロール</li>
+        <a class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">close</i>サイドバーを閉じる</a>
+        <a href="#whatimgoodat" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">beenhere</i>得意なこと</a>
+        <a href="#accounts" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">account_circle</i>マイアカウント</a>
+        <a href="#gameaccounts" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">videogame_asset</i>ゲームアカウント名</a>
+        <a href="#links" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">link</i>リンク</a>
+        <a href="#contact" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">send</i>私に連絡する方法</a>
+        <a href="#comment" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">chat</i>コメント</a>
+        <li class="mdui-subheader">外部リンク</li>
+        <a href="https://blog.ikunmc.com" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">border_color</i>ブログ</a>
+        <a href="https://www.ikunmc.com" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">forum</i>フォーラム</a>
+        <a href="./apis/ai" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">color_lens</i>人工知能絵画</a>
+        <a href="http://azdyqwo-ovo.669.ink/old.html" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">backspace</i>レガシーページ</a>
+        <a href="https://alist.azqaq.cn.eu.org" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">file_upload</i>Alist を自宅のパソコンで</a>
+        <a href="https://l.azqaq.top" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">cloud_upload</i>クラウドサーバー上の Alist</a>
+        <li class="mdui-subheader">アミューズメント</li>
+        <a href="javascript:var KICKASSVERSION='2.0';var s = document.createElement('script');s.type='text/javascript';document.body.appendChild(s);s.src='//hi.kickassapp.com/kickass.js';void(0);" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">gps_fixed</i>Kick Ass(このページを爆破,by kickassapp.com)</a>
+        <a href="https://eatkun.ikunmc.com" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">games</i>Eat Kun</a>
+      </li>
+  </div>
+  
+</body>
   <span class="mdui-typo-title">azQAQ の個人サイト</span>
   <div class="mdui-toolbar-spacer"></div>
   <div class="mdui-textfield mdui-textfield-expandable mdui-float-right">
@@ -73,7 +101,7 @@
         <a href="./en_us.html">English(US)</a>
       </li>
       <li class="mdui-menu-item" disabled>
-        <a href="./ja.html#" class="mdui-ripple"><i class="mdui-icon material-icons">&#xe876;</i>日本語（日本）</a>
+        <a href="#" class="mdui-ripple"><i class="mdui-icon material-icons">&#xe876;</i>日本語（日本）</a>
       </li>
       <li class="mdui-menu-item">
         <a href="./ko.html" class="mdui-ripple">한국어(대한민국)</a>
@@ -130,7 +158,7 @@
 <p><div class="mdui-progress">
   <div class="mdui-progress-determinate" style="width: 24%;"></div>
 </div></p>
-<div class="mdui-divider"></div>
+<div class="mdui-divider" id="whatimgoodat"></div>
 <h1 align="center">得意なこと？</h1>
 <h2 align="center">歌うこと、踊ること、Rap、バスケットボールが大好きです</h2>
 <p></p>
@@ -148,7 +176,7 @@
   <li class="mdui-subheader">蔡徐坤のニワトリの写真を送る</li>
   <li class="mdui-list-item mdui-ripple">蔡徐坤のニワトリの写真はたくさんあります</li>
 </ul>
-<div class="mdui-divider"></div>
+<div class="mdui-divider" id="accounts"></div>
 
 <h1 align="center">マイソーシャルアカウント</h1>
 <h2 align="center">インターネット上の私の住んでいる場所(クリックすると拡大します)</h2>
@@ -294,7 +322,7 @@
     </div>
   </div>
   </div>
-  <div class="mdui-divider"></div>
+  <div class="mdui-divider" id="gameaccounts"></div>
   <!-- game accounts-->
   <h1 align="center">マイゲームアカウント</h1>
 <h2 align="center">ゲーム内の私の名前は何ですか?(クリックで拡大)</h2>
@@ -362,8 +390,8 @@
   </div>
 
 </div>
-<div class="mdui-divider"></div>
-<h1 align="center">リンクス</h1>
+<div class="mdui-divider" id="links"></div>
+<h1 align="center">リンク</h1>
 <p align="center"><img src="https://enderbbs.wavemoe.com/assets/logo-n517ushh.png"></p>
 <h3 align="center">ゲーマーやテクノロジー愛好家がゲームやテクノロジーについてコミュニケーションを取り、共有し、学ぶためのプラットフォームを提供するフォーラム</h3>
 <p align=center><a href="https://enderbbs.wavemoe.com" class="mdui-btn mdui-ripple">「実行」をクリックします<i class="mdui-icon material-icons">&#xe154;</i></a></p>
@@ -373,7 +401,7 @@
 <p align=center><img src=http://hdxzd12.gnway.cc/data/attachment/common/template/boardimg_20240101wka87we7.png></p>
 <h3 align=center>技術交流とリソース共有を提供する Web サイト</h3>
 <p align=center><a href="http://hdxzd12.gnway.cc" class="mdui-btn mdui-ripple">「実行」をクリックします<i class="mdui-icon material-icons">&#xe154;</i></a></p>
-<div class="mdui-divider"></div>
+<div class="mdui-divider" id="contact"></div>
 
 
 <h3 align=center>私に連絡する方法(すべてクリックすることができます)</h3>
@@ -400,6 +428,7 @@
 <div class="mdui-panel-item-header">総ウェブサイト訪問数:<img src="https://badges.toozhao.com/badges/01HB14DBJTAXA78QRRYPYZ5YR0/green.svg" /></div>
   </div>
   </div>
+  <div id="comment"></div>
   <!--评论-->
 <div id="gitalk-container"></div>
 <!--引入评论系统-->
@@ -418,7 +447,7 @@ var gitalk = new Gitalk({
 gitalk.render('gitalk-container')
 </script>
 <div class="mdui-divider"></div>
-<a href="./ja.html#" class="mdui-btn mdui-ripple">
+<a href="#" class="mdui-btn mdui-ripple">
 <button class="mdui-fab mdui-fab-fixed mdui-ripple">
 <i class="mdui-icon material-icons">&#xe5d8;</i>
 </button>
