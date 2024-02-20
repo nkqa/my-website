@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">
+<head>
+<!--mdui-->
+<link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css"/>
+<meta charset="UTF-8">
+<title>az_QAQ 的個人網站</title>
+<!--chat -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+  <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<!-- 适应移动端 UA -->
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+</head>
+<body>
+<div class="mdui-toolbar mdui-color-theme">
+	<body class="mdui-drawer-body-right">
+
+  <i class="mdui-btn" mdui-drawer="{target: '#left-drawer'}"><i class="mdui-icon material-icons">menu</i></i>
+
+  <div class="mdui-drawer mdui-drawer-close" id="left-drawer">
+    <li class="mdui-menu-item">
+        <li class="mdui-subheader">網頁控制</li>
+        <a class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">close</i>關閉側邊欄</a>
+        <a href="#whatimgoodat" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">beenhere</i>我擅長的</a>
+        <a href="#accounts" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">account_circle</i>我的社交帳號</a>
+        <a href="#gameaccounts" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">videogame_asset</i>我的遊戲帳號</a>
+        <a href="#links" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">link</i>無法友情的連結</a>
+        <a href="#contact" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">send</i>聯繫方式</a>
+        <a href="#comment" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">chat</i>評論</a>
+        <li class="mdui-subheader">外部連結</li>
+        <a href="https://blog.ikunmc.com" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">border_color</i>個人博客</a>
+        <a href="https://www.ikunmc.com" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">forum</i>論壇</a>
+        <a href="./apis/ai" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">color_lens</i>AI 畫家</a>
+        <a href="http://azdyqwo-ovo.669.ink/old.html" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">backspace</i>舊版頁面</a>
+        <a href="https://alist.azqaq.cn.eu.org" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">file_upload</i>在家裡電腦運行的 Alist</a>
+        <a href="https://l.azqaq.top" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">cloud_upload</i>在雲伺服器上運行的 Alist</a>
+        <li class="mdui-subheader">娛樂</li>
+        <a href="javascript:var KICKASSVERSION='2.0';var s = document.createElement('script');s.type='text/javascript';document.body.appendChild(s);s.src='//hi.kickassapp.com/kickass.js';void(0);" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">gps_fixed</i>Kick Ass(炸毀頁面，來源：kickassapp.com)</a>
+        <a href="https://eatkun.ikunmc.com" class="mdui-ripple mdui-list-item" mdui-drawer-close><i class="mdui-icon material-icons">games</i>ikun 音遊</a>
+      </li>
+  </div>
+  
+</body>
+
+  <span class="mdui-typo-title">azQAQ 的個人網站</span>
+  <div class="mdui-toolbar-spacer"></div>
+  <div class="mdui-textfield mdui-textfield-expandable mdui-float-right">
+  <a href="https://bing.com" class="mdui-btn mdui-btn-icon mdui-ripple">
+    <i class="mdui-icon material-icons">&#xe8b6;</i>
+    </a>
+</div>
+  </a>
+  <a href="javascript:location.reload ()" class="mdui-btn mdui-btn-icon mdui-ripple">
+    <i class="mdui-icon material-icons" class="mdui-btn mdui-ripple">refresh</i>
+  </a>
+  <ul class="mdui-menu">
+  <a href="javascript:;" class="mdui-btn mdui-btn-icon">
+    <i class="mdui-icon material-icons">more_vert</i>
+  </a>
+    <a href="javascript:;" class="mdui-ripple">Refresh</a>
+  </li>
+  <li class="mdui-menu-item" disabled>
+    <a href="javascript:;">Help & feedback</a>
+  </li>
+  <li class="mdui-menu-item">
+    <a href="javascript:;" class="mdui-ripple">Settings</a>
+  </li>
+  <li class="mdui-divider"></li>
+  <li class="mdui-menu-item">
+    <a href="javascript:;" class="mdui-ripple">Sign out</a>
+  </li>
+</ul>
+</div>
+  <!--user card-->
+  <div class="mdui-grid-tile">
+  <a href="javascript:;"><img src="./static/img/smirking.jpg"/></a>
+  <div class="mdui-grid-tile-actions">
+    <div class="mdui-grid-tile-text">
+      <div class="mdui-grid-tile-title">我是 azQAQ，歡迎您來到我的個人網站</div>
+    </div>
+  </div>
+</div>
+<p align=center><a href="old.html"><button class="mdui-btn mdui-ripple mdui-color-blue">舊版頁面</button></a></p>
+<!--language-->
+  <div class="mdui-container" align=center >
+    <button class="mdui-btn mdui-ripple mdui-color-blue" mdui-menu="{target: '#example-attr'}"><i class="mdui-icon material-icons">&#xe894;</i>變換語言</button>
+    <ul class="mdui-menu" id="example-attr">
+      <li class="mdui-menu-item">
+        <a href="./zh_cn.html" class="mdui-ripple"><i class="mdui-icon material-icons">&#xe876;</i>简体中文（中国大陆）</a>
+      </li>
+      <li class="mdui-menu-item" disabled>
+        <a href="#" class="mdui-ripple">繁體中文（中國臺灣）</a>
+      </li>
+      <li class="mdui-menu-item">
+        <a href="./zh_meow.html" class="mdui-ripple">喵体中文🐱</a>
+      </li>
+      <li class="mdui-menu-item">
+        <a href="./en_us.html">English(US)</a>
+      </li>
+      <li class="mdui-menu-item">
+        <a href="./ja.html" class="mdui-ripple">日本語（日本）</a>
+      </li>
+      <li class="mdui-menu-item">
+        <a href="./ko.html" class="mdui-ripple">한국어(대한민국)</a>
+      </li>
+      <li class="mdui-menu-item">
+        <a href="./ru.html" class="mdui-ripple">Русский(Россия)</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="mdui-divider"></div>
+  <h3 align="center">一名普通的 Minecraft 玩家</h3>
+  <p>喜歡開團</p>
+<p>
+  <p>🐔太美</p>
+<p><label class="mdui-checkbox">
+  <input type="checkbox" disabled checked/>
+  <i class="mdui-checkbox-icon"></i>
+  遊戲時間兩年半（其實不止）
+</label></p>
+<p><label class="mdui-checkbox">
+  <input type="checkbox" disabled checked/>
+  <i class="mdui-checkbox-icon"></i>
+  對雞太美較瞭解
+</label></p>
+<p><label class="mdui-checkbox">
+  <input type="checkbox" disabled checked/>
+  <i class="mdui-checkbox-icon"></i>
+  “資深”站長，“善於”檢查網站錯誤報告
+</label></p>
+<p><label class="mdui-checkbox">
+  <input type="checkbox" disabled checked/>
+  <i class="mdui-checkbox-icon"></i>
+  善於開團
+</label></p>
+<p><label class="mdui-checkbox">
+  <input type="checkbox" disabled checked/>
+  <i class="mdui-checkbox-icon"></i>
+  真愛雞粉
+</label></p>
+<p>唱 71%</p>
+<p><div class="mdui-progress">
+  <div class="mdui-progress-determinate" style="width: 71%;"></div>
+</div></p>
+<p>跳 81%</p>
+<p><div class="mdui-progress">
+  <div class="mdui-progress-determinate" style="width: 81%;"></div>
+</div></p>
+<p>rap 35%</p>
+<p><div class="mdui-progress">
+  <div class="mdui-progress-determinate" style="width: 35%;"></div>
+</div></p>
+<p>籃球 24%</p>
+<p><div class="mdui-progress">
+  <div class="mdui-progress-determinate" style="width: 24%;"></div>
+</div></p>
+<div class="mdui-divider" id="whatimgoodat"></div>
+<h1 align="center">我擅長的</h1>
+<h2 align="center">我喜歡唱、跳、rap、籃球</h2>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<ul class="mdui-list">
+  <li class="mdui-subheader">當個創世神</li>
+  <li class="mdui-list-item mdui-ripple">搭建 CXK</li>
+  <li class="mdui-subheader">開設論壇</li>
+  <li class="mdui-list-item mdui-ripple">自2022年12月開始擁有網路論壇站長的身份</li>
+  <li class="mdui-subheader">開團</li>
+  <li class="mdui-list-item mdui-ripple">有很多坤圖</li>
+</ul>
+<div class="mdui-divider"></div>
+
+	<div id="accounts"></div>
+<h1 align="center">我的社交帳號</h1>
+<h2 align="center">我在網路上的住處（點擊展開）</h2>
+<!--账号-->
+<div class="mdui-panel" mdui-panel>
+
+  <div class="mdui-panel-item">
+  <div class="mdui-panel-item-header">嗶哩嗶哩</div>
+    <div class="mdui-panel-item-body">
+      <p><a href="https://b23.tv/D5rHkB9" class="mdui-btn mdui-ripple">點擊前往帳號1（常用）</a></p>
+      <p><a href="https://b23.tv/F9FaSwG" class="mdui-btn mdui-ripple">點擊前往帳號2（不常用）</a></p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="mdui-panel" mdui-panel>
+
+  <div class="mdui-panel-item">
+<div class="mdui-panel-item-header" class="mdui-btn mdui-ripple">抖音（大陸版 TikTok）</div>
+    <div class="mdui-panel-item-body">
+      <p><a href="https://v.douyin.com/iepnMyLV" class="mdui-btn mdui-ripple">點擊前往</a></p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="mdui-panel" mdui-panel>
+
+  <div class="mdui-panel-item">
+<div class="mdui-panel-item-header">TikTok（全球版）</div>
+    <div class="mdui-panel-item-body">
+      <p><a href="https://tiktok.com/@amongus_win11" class="mdui-btn mdui-ripple">點擊前往</a></p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="mdui-panel" mdui-panel>
+
+  <div class="mdui-panel-item">
+<div class="mdui-panel-item-header">微博</div>
+    <div class="mdui-panel-item-body">
+      <p><a href="https://weibo.com/azqaq" class="mdui-btn mdui-ripple">點擊前往</a></p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="mdui-panel" mdui-panel>
+
+  <div class="mdui-panel-item">
+<div class="mdui-panel-item-header">西瓜視頻</div>
+    <div class="mdui-panel-item-body">
+      <p><a href="https://v.ixigua.com/i8m5YtAV" class="mdui-btn mdui-ripple">點擊前往</a></p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="mdui-panel" mdui-panel>
+
+  <div class="mdui-panel-item">
+<div class="mdui-panel-item-header">YouTube</div>
+    <div class="mdui-panel-item-body">
+      <p><a href="https://www.youtube.com/@azqaq" class="mdui-btn mdui-ripple">點擊前往</a></p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="mdui-panel" mdui-panel>
+
+  <div class="mdui-panel-item">
+<div class="mdui-panel-item-header">Twitter（X）</div>
+    <div class="mdui-panel-item-body">
+      <p><a href="https://x.com/Win11OvO" class="mdui-btn mdui-ripple">點擊前往</a></p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="mdui-panel" mdui-panel>
+
+  <div class="mdui-panel-item">
+<div class="mdui-panel-item-header">Facebook</div>
+    <div class="mdui-panel-item-body">
+      <p><a href="https://www.facebook.com/100080358890922" class="mdui-btn mdui-ripple">點擊前往</a></p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="mdui-panel" mdui-panel>
+
+  <div class="mdui-panel-item">
+<div class="mdui-panel-item-header">GitHub</div>
+    <div class="mdui-panel-item-body">
+      <p><a href="https://github.com/azdyqwo" class="mdui-btn mdui-ripple">點擊前往账号1</a></p>
+      <p><a href="https://github.com/azdyqwo54188" class="mdui-btn mdui-ripple">點擊前往账号2</a></p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="mdui-panel" mdui-panel>
+
+  <div class="mdui-panel-item">
+<div class="mdui-panel-item-header">Instagram</div>
+    <div class="mdui-panel-item-body">
+      <p><a href="http://instagram.com/azdyqwo_ovo?utm_source=qr" class="mdui-btn mdui-ripple">點擊前往</a></p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="mdui-panel" mdui-panel>
+
+  <div class="mdui-panel-item">
+<div class="mdui-panel-item-header">Twitch</div>
+    <div class="mdui-panel-item-body">
+      <p><a href="https://twitch.tv/azdyqwo_ovo" class="mdui-btn mdui-ripple">點擊前往</a></p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="mdui-panel" mdui-panel>
+
+  <div class="mdui-panel-item">
+<div class="mdui-panel-item-header">Niconico（日本網站）</div>
+    <div class="mdui-panel-item-body">
+      <p><a href="https://www.nicovideo.jp/user/117738394" class="mdui-btn mdui-ripple">點擊前往</a></p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="mdui-panel" mdui-panel>
+
+  <div class="mdui-panel-item">
+<div class="mdui-panel-item-header">Steam（steamcommunity.com）</div>
+    <div class="mdui-panel-item-body">
+      <p><a href="https://steamcommunity.com/id/az_qaq" class="mdui-btn mdui-ripple">點擊前往</a></p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="mdui-panel" mdui-panel>
+
+  <div class="mdui-panel-item">
+  <div class="mdui-panel-item-header">站長個人博客</div>
+    <div class="mdui-panel-item-body">
+      <p><a href="https://blog.ikunmc.com" class="mdui-btn mdui-ripple">點擊前往</a></p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="mdui-divider"></div>
+  <!-- game accounts-->
+	<div id="gameaccounts"></div>
+  <h1 align="center">我的遊戲帳號</h1>
+<h2 align="center">我在遊戲上的都名叫什麼？ （點擊展開）</h2>
+<!--账号-->
+<div class="mdui-panel" mdui-panel>
+
+  <div class="mdui-panel-item">
+  <div class="mdui-panel-item-header">當個創始神（網易版）<a href="https://mc.163.com" class="mdui-btn mdui-ripple">遊戲官網</a></div>
+    <div class="mdui-panel-item-body">
+      <p>azdyqwo_ovo(官方伺服器)</p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="mdui-panel" mdui-panel>
+
+  <div class="mdui-panel-item">
+<div class="mdui-panel-item-header" class="mdui-btn mdui-ripple">當個創始神（全球版）<a href="https://minecraft.net" class="mdui-btn mdui-ripple">遊戲官網</a></div>
+    <div class="mdui-panel-item-body">
+      <p>PluralScarab735（同時也是 Xbox 帳號）</p>
+      <p>az_QAQ（Java 版的正版）</p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="mdui-panel" mdui-panel>
+
+  <div class="mdui-panel-item">
+<div class="mdui-panel-item-header">蛋仔派對（大陸版）<a href="https://party.163.com" class="mdui-btn mdui-ripple">遊戲官網</a></div>
+    <div class="mdui-panel-item-body">
+      <p>az_QAQ（華為應用商店登錄的帳號）</p>
+      <p>a_QAQ（从7723下載）</p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="mdui-panel" mdui-panel>
+
+  <div class="mdui-panel-item">
+<div class="mdui-panel-item-header">蛋仔派對（全球版）<a href="https://eggyparty.com" class="mdui-btn mdui-ripple">遊戲官網</a></div>
+    <div class="mdui-panel-item-body">
+      <p>azQAQ</p>
+    </div>
+  </div>
+  </div>
+  
+  <div class="mdui-panel" mdui-panel>
+
+  <div class="mdui-panel-item">
+<div class="mdui-panel-item-header">Steam<a href="https://store.steampowered.com" class="mdui-btn mdui-ripple">官網</a></div>
+    <div class="mdui-panel-item-body">
+      <p>azQAQ(azdyqwo_ovo)</p>
+    </div>
+  </div>
+  </div>
+  <div class="mdui-panel" mdui-panel>
+
+  <div class="mdui-panel-item">
+<div class="mdui-panel-item-header">VRChat<a href="https://hello.vrchat.com" class="mdui-btn mdui-ripple">遊戲官網</a></div>
+    <div class="mdui-panel-item-body">
+      <p>az_QAQ</p>
+    </div>
+  </div>
+  </div>
+  </div>
+
+</div>
+<div class="mdui-divider" id="links"></div>
+<h1 align="center">無法友情的連結</h1>
+<p align="center"><img src="https://enderbbs.wavemoe.com/assets/logo-n517ushh.png"></p>
+<h3 align="center">一個為遊戲玩家和技術愛好者提供遊戲與技術交流、分享、學習平臺的輕論壇</h3>
+<p align=center><a href="https://enderbbs.wavemoe.com" class="mdui-btn mdui-ripple">點擊前往<i class="mdui-icon material-icons">&#xe154;</i></a></p>
+<p align=center><img src=https://s11.ax1x.com/2023/12/30/piOUxtP.png></p>
+<h3 align=center>致力於提供一個好環境的論壇</h3>
+<p align=center><a href="https://www.ikunmc.com" class="mdui-btn mdui-ripple">點擊前往<i class="mdui-icon material-icons">&#xe154;</i></a></p>
+<p align=center><img src=http://hdxzd12.gnway.cc/data/attachment/common/template/boardimg_20240101wka87we7.png></p>
+<h3 align=center>一個提供技術交流和資源分享的網站</h3>
+<p align=center><a href="http://hdxzd12.gnway.cc" class="mdui-btn mdui-ripple">點擊前往<i class="mdui-icon material-icons">&#xe154;</i></a></p>
+<div class="mdui-divider"></div>
+
+<div id="contact"></div>
+<h3 align=center>聯絡方式（都可以點）</h3>
+<ul class="mdui-list">
+<li class="mdui-subheader">住址</li>
+  <li class="mdui-list-item mdui-ripple"><a href=https://amap.com/search?query=地球 class="mdui-btn mdui-ripple">地球</a></li>
+  <li class="mdui-subheader">電話號碼</li>
+  <li class="mdui-list-item mdui-ripple"><a href=tel:+861*********6 class="mdui-btn mdui-ripple">+861**********6</a></li>
+  <li class="mdui-subheader">E-Mail 郵箱</li>
+  <li class="mdui-list-item mdui-ripple"><p><a href=mailto:shiwin7junya@126.com class="mdui-btn mdui-ripple">shiwin7junya@126.com(最經常用)</a></li></p>
+                                <li class="mdui-list-item mdui-ripple"><p align=center><a href="mailto:shiwin7junya@outlook.com" class="mdui-btn mdui-ripple">shiwin7junya@outlook.com</a></li></p>
+                                <li class="mdui-list-item mdui-ripple"><p align=center><a href="mailto:amonguswin11@gmail.com" class="mdui-btn mdui-ripple">amonguswin11@gmail.com</a></li></p>
+                                <li class="mdui-list-item mdui-ripple"><p align=center><a href="mailto:azqaq@qq.com" class="mdui-btn mdui-ripple">azqaq@qq.com</a></li></p>
+                                <li class="mdui-list-item mdui-ripple"><p align=center><a href="mailto:azdyqwoovo@yandex.com" class="mdui-btn mdui-ripple">azdyqwoovo@yandex.com</a></li></p>
+                                <li class="mdui-list-item mdui-ripple"><p align=center><a href="mailto:catcute123@mail.ru" class="mdui-btn mdui-ripple">catcute123@mail.ru</a></li></p>
+                                <li class="mdui-list-item mdui-ripple"><p align=center><a href="mailto:azdyqwo@sina.com" class="mdui-btn mdui-ripple">azdyqwo@sina.com</a></li></p>
+                                <li class="mdui-list-item mdui-ripple"><p align=center><a href="mailto:azdyqwo@jinitaimei.email.cn" class="mdui-btn mdui-ripple">azdyqwo@jinitaimei.email.cn</a></li></p>
+                                <li class="mdui-list-item mdui-ripple"><p align=center><a href="mailto:1@ikunmc.com" class="mdui-btn mdui-ripple">1@ikunmc.com</a></li></p>
+                                </ul>
+<div class="mdui-divider"></div>
+<div class="mdui-panel" mdui-panel>
+
+  <div class="mdui-panel-item">
+<div class="mdui-panel-item-header">網站訪問總計:<img src="https://badges.toozhao.com/badges/01HB14DBJTAXA78QRRYPYZ5YR0/green.svg" /></div>
+  </div>
+  </div>
+	<div id="comment"></div>
+<div class="mdui-divider"></div>
+<!--评论-->
+<div id="gitalk-container"></div>
+<!--引入评论系统-->
+<script>
+var gitalk = new Gitalk({
+  clientID: 'd47e700739613d6562e7',
+  clientSecret: 'ce05507d824fd55aceebac46aa9e972c54ad4a70',
+  repo: 'Comment-2',
+  owner: 'azdyqwo',
+  admin: ['azdyqwo'],
+  id: 'chinese',      // Ensure uniqueness and length less than 50
+  distractionFreeMode: true,  // Facebook-like distraction free mode
+  Number: '4'
+})
+
+gitalk.render('gitalk-container')
+</script>
+<div class="mdui-divider"></div>
+<a href="#" class="mdui-btn mdui-ripple">
+<button class="mdui-fab mdui-fab-fixed mdui-ripple">
+<i class="mdui-icon material-icons">&#xe5d8;</i>
+</button>
+</a>
+<script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
+</body>
